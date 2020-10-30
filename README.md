@@ -2,5 +2,5 @@
 **isolla**
 tavallista tekstiä
 *olen kursivoitu*
-[GitHub](gitlog.txt)
-[GitHub](komentorivi.txt)
+[gitlog.txt](gitlog.txt)
+[komentorivi.txt](komentorivi.txt)
