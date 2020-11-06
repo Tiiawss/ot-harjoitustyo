@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package maksukortti;
 
 /**
  *
  * @author nytiia
  */
 public class Maksukortti {
-      private double arvo;
+    private double arvo;
     private final double EDULLINEN = 2.5;
     private final double MAUKAS = 4.0;
 
@@ -45,12 +44,7 @@ public class Maksukortti {
     public String toString() {
         return "Kortilla on rahaa " + this.arvo + " euroa";
     }
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         // TODO code application logic here
     }
-    
 }
