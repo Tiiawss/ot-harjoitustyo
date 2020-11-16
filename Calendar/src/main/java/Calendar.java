@@ -20,7 +20,7 @@ import javafx.stage.Stage;
 //package calendarview;
 
 
-public class CalendarView extends Application{
+public class Calendar extends Application{
 
     
      
@@ -29,22 +29,22 @@ public class CalendarView extends Application{
   
       
     
-        // set title for the stage 
+      
         s.setTitle("creating date picker"); 
   
-        // create a tile pane 
+  
         TilePane r = new TilePane(); 
   
-        // create a date picker 
+   
         DatePicker d = new DatePicker(); 
   
-        // add button and label 
+       
         r.getChildren().add(d); 
   
-        // create a scene 
-        Scene sc = new Scene(r, 200, 200); 
+      
+        Scene sc = new Scene(r, 300, 300); 
   
-        // set the scene 
+        
         s.setScene(sc); 
   
         s.show(); 
