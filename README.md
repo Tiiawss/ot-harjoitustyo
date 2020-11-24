@@ -18,7 +18,9 @@
 
 
 
+ #Dokumentaatio              
                
-               
-[työkirjanpito](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Kalenteri/Ty%C3%B6kirjanpito)
+[työkirjanpito](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Dokumentaati/Ty%C3%B6kirjanpito)
+[Käyttöohje](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Dokumentaati/K%C3%A4ytt%C3%B6ohje)
+[Vaativuusmäärittely](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Dokumentaati/Vaatimusm%C3%A4%C3%A4rittely)
 
