@@ -1,0 +1,11 @@
+# Käyttöohje
+
+
+## Ohjelman käynnistäminen
+
+Ohjelma käynnistetään komennolla 
+
+```
+java -jar calendar.jar
+```
+
