@@ -45,7 +45,7 @@ Kattavuusraporttia voi tarkastella avaamalla selaimella tiedosto target/site/jac
 Komento
 
 mvn package
-generoi hakemistoon target suoritettavan jar-tiedoston OtmTodoApp-1.0-SNAPSHOT.jar
+generoi hakemistoon target suoritettavan jar-tiedoston Calendar-1.0-SNAPSHOT.jar
 
 # JavaDoc
 JavaDoc generoidaan komennolla
