@@ -9,23 +9,15 @@ package Calendar.users;
  *
  * @author nytiia
  */
-public class Users {
-   int maara = 1;
-    
-    public int maara(){
-    maara++;
-        return maara;
-        
-    }
-    
-    
-    @Override
-    public String toString(){
-        return ""+ maara+"";
-    }
-    
-    
-    
-    
-    
+import java.util.List;
+import Calendar.domain.Todo;
+
+public interface TodoDao {
+
+    Todo create(Todo todo) throws Exception;
+
+    List<Todo> getAll();
+
+    void setDone(int id) throws Exception;
+
 }
