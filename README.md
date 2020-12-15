@@ -1,16 +1,16 @@
-# Kalenteriohjelma
+# Laskinohjelma
 **isolla**
 
--Kalenteriohjelmasta tulee ohjelma joka toimii niin että luot oman käyttäjän ja merkkaat kalenteriin menosi. Kalenteri muistuttaa tulevista menoista. Kalenteria voi siis käyttää monta käyttäjää joilla on omat tunnukset ja täten ohjelma löytää aina oikean henkilön tiedot mitkä näyttää.
+-Laskinohjelmasta  tulee ohjelma joka toimii nelilaskimen tavoin. Ei sisällä muisipaikkaa.
 
--Käyttäjärooleja on 2. Tavallinen käyttäjä ja Admin. Tavallinen käyttäjä pääsee vain omiin kalenterimerkintöihinsä käsiksi, admin hallinnoi kaikkea.
+-Käyttäjärooleja on vain yksi, tavallinen käyttäjä joka käyttää laskinta.
 
 # Suunnitellut toiminnallisuudet
-- voit kirjoittaa itsellesi joka päivän kohdalle muistilistoja.
+- Kerto, plus, miinus ja jakolasku, historia näkyvissä menossa olevan laskun osalta.
 - voit merkata menojasi kalenteriin tunnin tarkkuudella.
 
 # Perusversion laajennusideat
-- voit valita että kalenteri muistuttaa sinua tärkeastä menosta 1 päivä etukäteen.
+- hieno ulkonäkö.
 
 
 
@@ -45,7 +45,7 @@ Kattavuusraporttia voi tarkastella avaamalla selaimella tiedosto target/site/jac
 Komento
 
 mvn package
-generoi hakemistoon target suoritettavan jar-tiedoston Calendar-1.0-SNAPSHOT.jar
+generoi hakemistoon target suoritettavan jar-tiedoston calculator-1.0-SNAPSHOT.jar
 
 # JavaDoc
 JavaDoc generoidaan komennolla
