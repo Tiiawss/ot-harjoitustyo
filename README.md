@@ -1,5 +1,5 @@
 # Laskinohjelma
-**isolla**
+****
 
 -Laskinohjelmasta  tulee ohjelma joka toimii nelilaskimen tavoin. Ei sisällä muisipaikkaa.
 
