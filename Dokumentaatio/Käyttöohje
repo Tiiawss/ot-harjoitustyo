@@ -1,6 +1,5 @@
 
 
-
 # Käyttöohje
 
 Lataa tiedosto [calendar.jar](https://github.com/mluukkai/OtmTodoApp/releases/tag/0.1)
@@ -19,6 +18,8 @@ java -jar calendar.jar
 ## Aloitus ja käyttö
 
 Sovellus käynnistyy aloitusnäkymään:
+
+
 Käyttäminen tapahtuu painamalla haluamasi numero ensin, sitten mitä sille haluat tehdä (plus, miinus yms) ja kun olet syöttänyt haluamasi laskun painat yhtämontakuin näppäintä.
 sovellus sulkeutuu ikkunasta poistuttaessa.
 
