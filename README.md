@@ -28,6 +28,10 @@
 
 [Vaativuusmäärittely](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Dokumentaati/Vaatimusm%C3%A4%C3%A4rittely)
 
+[Arkkitehtuurikuvaus](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Dokumentaatio/Arkkitehtuurikuvaus)
+
+[Testausdokumentti](https://github.com/Tiiawss/ot-harjoitustyo/blob/master/Dokumentaatio/Testausdokumentti)
+
 ## Komentorivitoiminnot
 
 
