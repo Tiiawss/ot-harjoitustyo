@@ -1,0 +1,307 @@
+commit 2e43ce9a42a5689622ccdcbfa2fa3ec57641fbbc 
+
+Author: Tiiawss <tiia.nylen@gmail.com> 
+
+Date:   Wed Mar 17 17:27:19 2021 +0200 
+
+  
+
+    t 
+
+  
+
+tiedostoja/file1.txt  | 0 
+
+tiedostoja/file2.txt  | 0 
+
+tiedostoja/file22.txt | 1 + 
+
+tiedostoja/file3.txt  | 1 + 
+
+4 files changed, 2 insertions(+) 
+
+  
+
+commit 846b1890e47a36f49e2ddbcb2ec54ef98fbd9274 
+
+Author: Tiiawss <tiia.nylen@gmail.com> 
+
+Date:   Wed Mar 17 17:17:07 2021 +0200 
+
+  
+
+    t 
+
+  
+
+tiedostoja/file1.txt | 0 
+
+tiedostoja/file2.txt | 0 
+
+tiedostoja/file3.txt | 0 
+
+3 files changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 9ebeefb3b66874cb0fa936cbeee7668aafab541f 
+
+Author: Tiiawss <tiia.nylen@gmail.com> 
+
+Date:   Wed Mar 17 17:12:02 2021 +0200 
+
+  
+
+    muutos ja lisäys 
+
+  
+
+eka.txt                           | 2 -- 
+
+kolmas.txt                        | 2 -- 
+
+tiedostoja/3                      | 0 
+
+tiedostoja/file                   | 0 
+
+tiedostoja/file22.txt             | 0 
+
+tiedostoja/file3.txt              | 0 
+
+tiedostoja/file33                 | 1 - 
+
+"nelj\303\244s.txt" => toinen.txt | 0 
+
+8 files changed, 5 deletions(-) 
+
+  
+
+commit 2a68015e0ba17618da5d65665019d796bf016c64 
+
+Author: Tiiawss <tiia.nylen@gmail.com> 
+
+Date:   Wed Mar 17 17:10:25 2021 +0200 
+
+  
+
+    tiedosto.txt luotu 
+
+  
+
+tiedosto.txt | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 4ae570ccace58f45a0ef7085f128d1d3b55ceca9 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 18:03:59 2020 +0200 
+
+  
+
+    jtn 
+
+  
+
+tiedostoja/file2.txt                 | 0 
+
+tiedostoja/{file1.txt => file22.txt} | 0 
+
+2 files changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 010de975987e2438e1efd075acdb3275c897ac14 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 18:00:05 2020 +0200 
+
+  
+
+    filet tehty 
+
+  
+
+tiedostoja/file1.txt | 0 
+
+tiedostoja/file2.txt | 0 
+
+tiedostoja/file3.txt | 0 
+
+tiedostoja/file33    | 1 + 
+
+4 files changed, 1 insertion(+) 
+
+  
+
+commit 78e7fdc26692dcf4911c02bede7b9f1dc6e53ecd 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:53:01 2020 +0200 
+
+  
+
+    jtn 
+
+  
+
+tiedostoja/3    | 0 
+
+tiedostoja/file | 0 
+
+2 files changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 9bee8c305c26f30a91423e89046b2c65fa2f7a2f 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:44:36 2020 +0200 
+
+  
+
+    jtn 
+
+  
+
+eka.txt    | 3 ++- 
+
+kolmas.txt | 3 ++- 
+
+2 files changed, 4 insertions(+), 2 deletions(-) 
+
+  
+
+commit 485e4037a8f45b28bbb0dc2c64066137f18ea7d9 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:42:44 2020 +0200 
+
+  
+
+    jtn 
+
+  
+
+tiedosto.txt => eka.txt | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit acd0d2d3018e68db5eecd260f5fd25ddb7fbcc8e 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:41:04 2020 +0200 
+
+  
+
+    jtn 
+
+  
+
+toinen.txt | 1 - 
+
+1 file changed, 1 deletion(-) 
+
+  
+
+commit 84e66043300905f1e4d8aef7ac71435c2235a217 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:34:31 2020 +0200 
+
+  
+
+    lopppu 
+
+  
+
+"nelj\303\244s.txt" | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 8aff74d613ea1a5d5d1192707e9b7c918e1f8650 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:33:39 2020 +0200 
+
+  
+
+    ennen stuffia 
+
+  
+
+kolmas.txt | 1 + 
+
+toinen.txt | 1 + 
+
+2 files changed, 2 insertions(+) 
+
+  
+
+commit 03121947b93b2758b2c074cc53c2e2bc6f3d21fa 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:31:52 2020 +0200 
+
+  
+
+    kolmas 
+
+  
+
+kolmas.txt | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 707ec9443bda8c6bc24bbbb282619358282e13c0 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:22:00 2020 +0200 
+
+  
+
+    muutos ja lisäys 
+
+  
+
+tiedosto.txt | 1 + 
+
+toinen.txt   | 0 
+
+2 files changed, 1 insertion(+) 
+
+  
+
+commit 5485bc8ef9d15d915627f257fa104cdfcf213efb 
+
+Author: Tiia Nylen <tiia.nylen@gmail.com> 
+
+Date:   Fri Oct 30 17:15:34 2020 +0200 
+
+  
+
+    tiedosto.txt luotu 
+
+  
+
+tiedosto.txt | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
