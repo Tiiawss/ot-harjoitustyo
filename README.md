@@ -10,5 +10,5 @@ viikko1
 
 # Dokumentaatio
 
-[Tuntikirjan pito](https://github.com/Tiiawss/ot-harjoitustyo/blob/main/dokumentaatio/tuntikirjanpito.md)
+[Tuntikirjanpito](https://github.com/Tiiawss/ot-harjoitustyo/blob/main/dokumentaatio/tuntikirjanpito.md)
 
