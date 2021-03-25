@@ -1,14 +1,14 @@
-#Sovelluksen tarkoitus:
+# Sovelluksen tarkoitus:
 
 -Olla ristinolla peli. 
 - Käyttäjät voivat valita käyttäjänimen, ja kumpaa merkkia pelaavat (X,O)
 - Peli kertoo jos jumpikumpi voittaa, tai kun koko ruutu on täytetty mutta voittajaa ei ole.
 
-#Käyttäjäroolit:
+# Käyttäjäroolit:
 
 Vain yksi, ns. perus pelaaja, pystyy valita oman nimensä ja merkkinsä.
 
-#perusversio:
+# perusversio:
 
 - normaali 3x3 taulukko 
 - jos 3 samaa merkkiä on peräkkäin pysty- vaaka- tai vino suunnassa ilmoittaa voitosta sen merkin valinneelle pelaajalle
@@ -17,6 +17,6 @@ Vain yksi, ns. perus pelaaja, pystyy valita oman nimensä ja merkkinsä.
 - tarjoaa mahdollisuutta uuteen kierrokseen
 
 
-#laajennuksia:
+# laajennuksia:
 
 -käyttäjät voivat itse päättää taulukon koon
