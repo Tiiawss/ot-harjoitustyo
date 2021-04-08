@@ -44,14 +44,7 @@ public class ristinollaTest {
     // The methods must be annotated with annotation @Test. For example:
     //
     
-    @Test
-     public void listat() {
-         ristinolla.PlaceO(1, 1);
-         
-         assertEquals(ristinolla.rivi1.get(0),ristinolla.rivi1.get(0));
-         
-     
-}
+
 
     @Test
      public void hello() {}
