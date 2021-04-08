@@ -46,7 +46,7 @@ public class ristinollaTest {
     
     @Test
      public void listat() {
-         ristinolla.sijoitao(1, 1);
+         ristinolla.PlaceO(1, 1);
          
          assertEquals(ristinolla.rivi1.get(0),ristinolla.rivi1.get(0));
          
