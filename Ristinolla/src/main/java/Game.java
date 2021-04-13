@@ -13,10 +13,10 @@ import java.util.Scanner;
  * @author nytiia
  */
 public class Game {
-    private Scanner scan;
-    private   ArrayList<Integer> rivi1 = new ArrayList<Integer>(); 
-    private   ArrayList<Integer> rivi2 = new ArrayList<Integer>(); 
-    private   ArrayList<Integer> rivi3 = new ArrayList<Integer>(); 
+     Scanner scan;
+     ArrayList<Integer> rivi1 = new ArrayList<Integer>(); 
+     ArrayList<Integer> rivi2 = new ArrayList<Integer>(); 
+      ArrayList<Integer> rivi3 = new ArrayList<Integer>(); 
             
             
     
@@ -31,6 +31,7 @@ public class Game {
         
     }
     
+   
    
     
     
