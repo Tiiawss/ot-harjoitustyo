@@ -52,6 +52,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
 <version>0.8.3</version>
+<configuration>
+        <excludes>
+            <exclude>Ristinolla/RistinollaUI/*</exclude>
+        </excludes>
+    </configuration>
 <executions>
 <execution>
 <id>default-prepare-agent</id>
