@@ -1,3 +1,5 @@
+package ristinollaApp;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;

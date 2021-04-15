@@ -3,7 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package ristinollaApp;
 
+
+import ristinollaApp.Ristinolla;
+import ristinollaApp.Game;
 import java.util.ArrayList;
 import java.util.Scanner;
 import org.junit.After;
