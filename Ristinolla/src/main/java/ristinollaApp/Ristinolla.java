@@ -28,10 +28,11 @@ public class Ristinolla {
         Scanner reader = new Scanner(System.in);
         Ristinolla r = new Ristinolla();
         RistinollaUI ui = new RistinollaUI();
-        Game game = new Game(reader);
+        
+        
         RistinollaUI.main(args);
          
-        game.Start();
+        
         
     }
     
