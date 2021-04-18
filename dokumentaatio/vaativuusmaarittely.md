@@ -15,7 +15,7 @@ Vain kaksi samoilla oikeuksilla olevaa käyttäjää, eli pelaajat.
 
 - voit valita itsellesi käyttäjänimen ja kummalla merkillä (X,O) pelaat.(tehty)
 - peli kertoo jos jompikumpi on saanut joko vaaka tai pystysuoraan kolme omaa merkkiä peräkkäin. (tehty)
-- pelaajat näkevät kokoajan ruudukon ja mihin edelliset merkit on laitettu.
+- pelaajat näkevät kokoajan ruudukon ja mihin edelliset merkit on laitettu.(tehty)
 
 ## Jatkokehitysideoita
 
