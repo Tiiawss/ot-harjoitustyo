@@ -21,10 +21,7 @@ public class Ristinolla {
      */
     //laitetaan myöhemmin olioksi ristikonluonti
     public static void main(String[] args) {
-        // TODO code application logic here
-        Scanner reader = new Scanner(System.in);
-        Ristinolla r = new Ristinolla();
-        RistinollaUI ui = new RistinollaUI();
+       
 
         RistinollaUI.main(args);
 

@@ -33,8 +33,9 @@ public class RistinollaUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        
         game.setGame();
-        Label turnLbl = new Label("Vuoro: ");
+        Label turnLbl = new Label("");
         Label winner = new Label(" ");
 
         Button btn1 = new Button();
@@ -46,10 +47,10 @@ public class RistinollaUI extends Application {
         Button btn7 = new Button();
         Button btn8 = new Button();
         Button btn9 = new Button();
-        TextField txt = new TextField();
-        txt.setText("");
+         turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
+        winner.setText("");
 
-        btn1.setText("  ");
+        btn1.setText("    ");
         btn1.setStyle("-fx-background-color: #fff;");
         btn1.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -59,19 +60,21 @@ public class RistinollaUI extends Application {
                     game.placeO(1, 1);
 
                     btn1.setText("O");
+                    turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(1, 1);
 
                     btn1.setText("X");
+                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
 
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn3.setText("  ");
+        btn3.setText("    ");
         btn3.setStyle("-fx-background-color: #fff;");
         btn3.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -81,19 +84,21 @@ public class RistinollaUI extends Application {
                     game.placeO(1, 3);
 
                     btn3.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(1, 3);
 
                     btn3.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
 
             }
         });
-        btn2.setText("  ");
+        btn2.setText("    ");
         btn2.setStyle("-fx-background-color: #fff;");
         btn2.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -103,18 +108,20 @@ public class RistinollaUI extends Application {
                     game.placeO(1, 2);
 
                     btn2.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(1, 2);
 
                     btn2.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn4.setText("  ");
+        btn4.setText("    ");
         btn4.setStyle("-fx-background-color: #fff;");
         btn4.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -124,18 +131,20 @@ public class RistinollaUI extends Application {
                     game.placeO(2, 1);
 
                     btn4.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(2, 1);
 
                     btn4.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn5.setText("  ");
+        btn5.setText("    ");
         btn5.setStyle("-fx-background-color: #fff;");
         btn5.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -145,18 +154,20 @@ public class RistinollaUI extends Application {
                     game.placeO(2, 2);
 
                     btn5.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(2, 2);
 
                     btn5.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn6.setText("  ");
+        btn6.setText("    ");
         btn6.setStyle("-fx-background-color: #fff;");
         btn6.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -166,18 +177,20 @@ public class RistinollaUI extends Application {
                     game.placeO(2, 3);
 
                     btn6.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(2, 3);
 
                     btn6.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn7.setText("  ");
+        btn7.setText("    ");
         btn7.setStyle("-fx-background-color: #fff;");
         btn7.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -187,18 +200,20 @@ public class RistinollaUI extends Application {
                     game.placeO(3, 1);
 
                     btn7.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(3, 1);
 
                     btn7.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn8.setText("  ");
+        btn8.setText("    ");
         btn8.setStyle("-fx-background-color: #fff;");
         btn8.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -208,18 +223,20 @@ public class RistinollaUI extends Application {
                     game.placeO(3, 2);
 
                     btn8.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(3, 2);
 
                     btn8.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
         });
-        btn9.setText("  ");
+        btn9.setText("    ");
         btn9.setStyle("-fx-background-color: #fff;");
         btn9.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -229,13 +246,15 @@ public class RistinollaUI extends Application {
                     game.placeO(3, 3);
 
                     btn9.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(3, 3);
 
                     btn9.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
-                    txt.setText("Peli päättyi");
+                    winner.setText("Peli päättyi");
                 }
                 turn++;
             }
@@ -245,7 +264,7 @@ public class RistinollaUI extends Application {
         GridPane root = new GridPane();
         root.setHgap(12);
         root.setVgap(12);
-        root.setPadding(new Insets(20, 20, 20, 20));
+        root.setPadding(new Insets(30, 30, 30, 30));
         root.add(btn1, 0, 0);
         root.add(btn2, 0, 1);
         root.add(btn3, 0, 2);

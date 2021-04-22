@@ -29,31 +29,25 @@ public class Game {
     }
 
     public boolean start() {
-
-        System.out.println("Tervetuloa pelaamaan ristinollaa, ruudukko on 3x3 ja pelaaja 1 aloittaa pelimerkillä X");
+        
         setGame();
         while (true) {
-            System.out.println("Pelaaja 1 valitse merkin X paikka, syötä paikka ensin vaaka ja sitten pysty suunnassa.(1,2 tai 3)");
+            
             int x1 = scan.nextInt();
             int x2 = scan.nextInt();
             placeX(x1, x2);
             if (isDone()) {
                 return true;
-
             }
-            System.out.println("Pelaaja 2 valitse merkin O paikka, syötä paikka ensin vaaka ja sitten pysty suunnassa.(1,2 tai 3)");
+            
             int o1 = scan.nextInt();
             int o2 = scan.nextInt();
             placeO(o1, o2);
             if (isDone()) {
                 return true;
-
             }
-
         }
-
     }
-
     public void setGame() {
 
         rivi1.add(0, 2);
@@ -68,141 +62,95 @@ public class Game {
     }
 
     public void placeX(int x1, int x2) {
-        if (x1 == 1) {
-            if (x2 == 1) {
-                rivi1.add(0, 1);
-            }
-            if (x2 == 2) {
-                rivi1.add(1, 1);
-            }
-            if (x2 == 3) {
-                rivi1.add(2, 1);
-            }
-
+       if (x1 == 1) {
+            if (x2 == 1) { rivi1.add(0, 1);}
+            if (x2 == 2) { rivi1.add(1, 1);}
+            if (x2 == 3) { rivi1.add(2, 1);}
         }
         if (x1 == 2) {
-            if (x2 == 1) {
-                rivi2.add(0, 1);
-            }
-            if (x2 == 2) {
-                rivi2.add(1, 1);
-            }
-            if (x2 == 3) {
-                rivi2.add(2, 1);
-            }
-
+            if (x2 == 1) { rivi2.add(0, 1);}
+            if (x2 == 2) { rivi2.add(1, 1);}
+            if (x2 == 3) { rivi2.add(2, 1);}
         }
-
         if (x1 == 3) {
-            if (x2 == 1) {
-                rivi3.add(0, 1);
-            }
-            if (x2 == 2) {
-                rivi3.add(1, 1);
-            }
-            if (x2 == 3) {
-                rivi3.add(2, 1);
-            }
-
-        }
-
+            if (x2 == 1) { rivi3.add(0, 1);}
+            if (x2 == 2) { rivi3.add(1, 1);}
+            if (x2 == 3) { rivi3.add(2, 1);}
+        } 
     }
 
-    public ArrayList placeO(int x1, int x2) {
+    public void placeO(int x1, int x2) {
         if (x1 == 1) {
-            if (x2 == 1) {
-                rivi1.add(0, 1);
-            }
-            if (x2 == 2) {
-                rivi1.add(1, 1);
-            }
-            if (x2 == 3) {
-                rivi1.add(2, 1);
-            }
-
+            if (x2 == 1) { rivi1.add(0, 1);}
+            if (x2 == 2) { rivi1.add(1, 1);}
+            if (x2 == 3) { rivi1.add(2, 1);}
         }
         if (x1 == 2) {
-            if (x2 == 1) {
-                rivi2.add(0, 1);
-            }
-            if (x2 == 2) {
-                rivi2.add(1, 1);
-            }
-            if (x2 == 3) {
-                rivi2.add(2, 1);
-            }
-
+            if (x2 == 1) { rivi2.add(0, 1);}
+            if (x2 == 2) { rivi2.add(1, 1);}
+            if (x2 == 3) { rivi2.add(2, 1);}
         }
-
         if (x1 == 3) {
-            if (x2 == 1) {
-                rivi3.add(0, 1);
-            }
-            if (x2 == 2) {
-                rivi3.add(1, 1);
-            }
-            if (x2 == 3) {
-                rivi3.add(2, 1);
-            }
-
-        }
-        return rivi1;
+            if (x2 == 1) { rivi3.add(0, 1);}
+            if (x2 == 2) { rivi3.add(1, 1);}
+            if (x2 == 3) { rivi3.add(2, 1);}
+        } 
     }
 
     public boolean isDone() {
         if (rivi1.get(0) == 0 && rivi1.get(1) == 0 && rivi1.get(2) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+        
             return true;
 
         } else if (rivi2.get(0) == 0 && rivi2.get(1) == 0 && rivi2.get(2) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+            
             return true;
 
         } else if (rivi3.get(0) == 0 && rivi3.get(1) == 0 && rivi3.get(2) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+           
             return true;
         } else if (rivi1.get(0) == 1 && rivi1.get(1) == 1 && rivi1.get(2) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+            
             return true;
         } else if (rivi2.get(0) == 1 && rivi2.get(1) == 1 && rivi2.get(2) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+         
             return true;
 
         } else if (rivi3.get(0) == 1 && rivi3.get(1) == 1 && rivi3.get(2) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+         
             return true;
 
         } else if (rivi1.get(0) == 1 && rivi2.get(0) == 1 && rivi3.get(0) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+            
             return true;
 
         } else if (rivi1.get(1) == 1 && rivi2.get(1) == 1 && rivi3.get(1) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+            
             return true;
         } else if (rivi1.get(2) == 1 && rivi2.get(2) == 1 && rivi3.get(2) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+          
             return true;
         } else if (rivi1.get(0) == 0 && rivi2.get(0) == 0 && rivi3.get(0) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+          
             return true;
 
         } else if (rivi1.get(1) == 0 && rivi2.get(1) == 0 && rivi3.get(1) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+            
             return true;
         } else if (rivi1.get(2) == 0 && rivi2.get(2) == 0 && rivi3.get(2) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+            
             return true;
         } else if (rivi1.get(0) == 0 && rivi2.get(1) == 0 && rivi3.get(2) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+            
             return true;
         } else if (rivi1.get(2) == 0 && rivi2.get(1) == 0 && rivi3.get(0) == 0) {
-            System.out.println("Pelaaja 2 voitti");
+       
             return true;
         } else if (rivi1.get(0) == 1 && rivi2.get(1) == 1 && rivi3.get(2) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+           
             return true;
         } else if (rivi1.get(2) == 1 && rivi2.get(1) == 1 && rivi3.get(0) == 1) {
-            System.out.println("Pelaaja 1 voitti");
+           
             return true;
         }
 
