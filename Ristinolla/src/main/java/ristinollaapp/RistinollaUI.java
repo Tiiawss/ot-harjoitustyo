@@ -30,7 +30,7 @@ public class RistinollaUI extends Application {
     private Scanner reader = new Scanner(System.in);
     private Game game = new Game(reader);
     private int turn = 1;
-
+//yksi is done puuttuu jostain tai jtn
     @Override
     public void start(Stage primaryStage) {
         
