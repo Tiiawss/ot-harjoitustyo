@@ -1,4 +1,4 @@
-package ristinollaApp;
+package ristinollaapp;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class Game {
 
     }
 
-    public boolean Start() {
+    public boolean start() {
 
         System.out.println("Tervetuloa pelaamaan ristinollaa, ruudukko on 3x3 ja pelaaja 1 aloittaa pelimerkillä X");
         setGame();
@@ -36,16 +36,16 @@ public class Game {
             System.out.println("Pelaaja 1 valitse merkin X paikka, syötä paikka ensin vaaka ja sitten pysty suunnassa.(1,2 tai 3)");
             int x1 = scan.nextInt();
             int x2 = scan.nextInt();
-            PlaceX(x1, x2);
-            if (IsDone()) {
+            placeX(x1, x2);
+            if (isDone()) {
                 return true;
 
             }
             System.out.println("Pelaaja 2 valitse merkin O paikka, syötä paikka ensin vaaka ja sitten pysty suunnassa.(1,2 tai 3)");
             int o1 = scan.nextInt();
             int o2 = scan.nextInt();
-            PlaceO(o1, o2);
-            if (IsDone()) {
+            placeO(o1, o2);
+            if (isDone()) {
                 return true;
 
             }
@@ -67,7 +67,7 @@ public class Game {
         rivi3.add(2, 2);
     }
 
-    public void PlaceX(int x1, int x2) {
+    public void placeX(int x1, int x2) {
         if (x1 == 1) {
             if (x2 == 1) {
                 rivi1.add(0, 1);
@@ -108,7 +108,7 @@ public class Game {
 
     }
 
-    public ArrayList PlaceO(int x1, int x2) {
+    public ArrayList placeO(int x1, int x2) {
         if (x1 == 1) {
             if (x2 == 1) {
                 rivi1.add(0, 1);
@@ -149,7 +149,7 @@ public class Game {
         return rivi1;
     }
 
-    public boolean IsDone() {
+    public boolean isDone() {
         if (rivi1.get(0) == 0 && rivi1.get(1) == 0 && rivi1.get(2) == 0) {
             System.out.println("Pelaaja 2 voitti");
             return true;

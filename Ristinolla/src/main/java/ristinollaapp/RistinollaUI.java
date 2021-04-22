@@ -1,4 +1,4 @@
-package ristinollaApp;
+package ristinollaapp;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -56,16 +56,16 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(1, 1);
+                    game.placeO(1, 1);
 
                     btn1.setText("O");
                 } else {
-                    game.PlaceX(1, 1);
+                    game.placeX(1, 1);
 
                     btn1.setText("X");
                 }
 
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -78,15 +78,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(1, 3);
+                    game.placeO(1, 3);
 
                     btn3.setText("O");
                 } else {
-                    game.PlaceX(1, 3);
+                    game.placeX(1, 3);
 
                     btn3.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -100,15 +100,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(1, 2);
+                    game.placeO(1, 2);
 
                     btn2.setText("O");
                 } else {
-                    game.PlaceX(1, 2);
+                    game.placeX(1, 2);
 
                     btn2.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -121,15 +121,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(2, 1);
+                    game.placeO(2, 1);
 
                     btn4.setText("O");
                 } else {
-                    game.PlaceX(2, 1);
+                    game.placeX(2, 1);
 
                     btn4.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -142,15 +142,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(2, 2);
+                    game.placeO(2, 2);
 
                     btn5.setText("O");
                 } else {
-                    game.PlaceX(2, 2);
+                    game.placeX(2, 2);
 
                     btn5.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -163,15 +163,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(2, 3);
+                    game.placeO(2, 3);
 
                     btn6.setText("O");
                 } else {
-                    game.PlaceX(2, 3);
+                    game.placeX(2, 3);
 
                     btn6.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -184,15 +184,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(3, 1);
+                    game.placeO(3, 1);
 
                     btn7.setText("O");
                 } else {
-                    game.PlaceX(3, 1);
+                    game.placeX(3, 1);
 
                     btn7.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -205,15 +205,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(3, 2);
+                    game.placeO(3, 2);
 
                     btn8.setText("O");
                 } else {
-                    game.PlaceX(3, 2);
+                    game.placeX(3, 2);
 
                     btn8.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;
@@ -226,15 +226,15 @@ public class RistinollaUI extends Application {
             @Override
             public void handle(ActionEvent event) {
                 if (turn % 2 == 0) {
-                    game.PlaceO(3, 3);
+                    game.placeO(3, 3);
 
                     btn9.setText("O");
                 } else {
-                    game.PlaceX(3, 3);
+                    game.placeX(3, 3);
 
                     btn9.setText("X");
                 }
-                if (game.IsDone()) {
+                if (game.isDone()) {
                     txt.setText("Peli päättyi");
                 }
                 turn++;

@@ -1,6 +1,6 @@
-package ristinollaApp;
+package ristinollaapp;
 
-import ristinollaApp.Game;
+import ristinollaapp.Game;
 import java.util.ArrayList;
 import java.util.Scanner;
 import static javafx.application.Application.launch;

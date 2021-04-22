@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ristinollaApp;
+package ristinollaapp;
 
-import ristinollaApp.Ristinolla;
-import ristinollaApp.Game;
+import ristinollaapp.Ristinolla;
+import ristinollaapp.Game;
 import java.util.ArrayList;
 import java.util.Scanner;
 import org.junit.After;
@@ -110,126 +110,126 @@ public class ristinollaTest {
 
     @Test
     public void Place1() {
-        game.PlaceX(1, 1);
+        game.placeX(1, 1);
         int luku = game.rivi1.get(0);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place2() {
-        game.PlaceX(1, 2);
+        game.placeX(1, 2);
         int luku = game.rivi1.get(1);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place3() {
-        game.PlaceX(1, 3);
+        game.placeX(1, 3);
         int luku = game.rivi1.get(2);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place4() {
-        game.PlaceX(2, 1);
+        game.placeX(2, 1);
         int luku = game.rivi2.get(0);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place5() {
-        game.PlaceX(2, 2);
+        game.placeX(2, 2);
         int luku = game.rivi2.get(1);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place6() {
-        game.PlaceX(2, 3);
+        game.placeX(2, 3);
         int luku = game.rivi2.get(2);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place7() {
-        game.PlaceX(3, 1);
+        game.placeX(3, 1);
         int luku = game.rivi3.get(0);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place8() {
-        game.PlaceX(3, 2);
+        game.placeX(3, 2);
         int luku = game.rivi3.get(1);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place9() {
-        game.PlaceX(3, 3);
+        game.placeX(3, 3);
         int luku = game.rivi3.get(2);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place10() {
-        game.PlaceO(1, 1);
+        game.placeO(1, 1);
         int luku = game.rivi1.get(0);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place20() {
-        game.PlaceO(1, 2);
+        game.placeO(1, 2);
         int luku = game.rivi1.get(1);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place30() {
-        game.PlaceO(1, 3);
+        game.placeO(1, 3);
         int luku = game.rivi1.get(2);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place40() {
-        game.PlaceO(2, 1);
+        game.placeO(2, 1);
         int luku = game.rivi2.get(0);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place50() {
-        game.PlaceO(2, 2);
+        game.placeO(2, 2);
         int luku = game.rivi2.get(1);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place60() {
-        game.PlaceO(2, 3);
+        game.placeO(2, 3);
         int luku = game.rivi2.get(2);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place70() {
-        game.PlaceO(3, 1);
+        game.placeO(3, 1);
         int luku = game.rivi3.get(0);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place80() {
-        game.PlaceO(3, 2);
+        game.placeO(3, 2);
         int luku = game.rivi3.get(1);
         assertEquals(luku, 1);
     }
 
     @Test
     public void Place90() {
-        game.PlaceO(3, 3);
+        game.placeO(3, 3);
         int luku = game.rivi3.get(2);
         assertEquals(luku, 1);
     }
