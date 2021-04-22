@@ -1,8 +1,8 @@
 
 # työaikakirjanpito
 
+- yht. 26 h. 
 
-| yht. 22 h. |
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
 | 25.3. | 1    | maven projektin luominen |
@@ -12,3 +12,4 @@
 | 14.04 | 1    | Raaka tekstiversio ohjelmasta valmis|
 | 16.04 | 4    | UI:n tekoa|
 | 18.04 | 4    | UI:n tekoa|
+| 22.04 | 4    | Chekstylen kanssa hiomista|
