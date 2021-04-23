@@ -1,5 +1,4 @@
 package ristinollaapp;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -12,6 +11,10 @@ import java.util.Scanner;
  *
  * @author nytiia
  */
+/**
+ * Luokka tekee pelilaudan ja pelin toteutuksen..
+ */
+
 public class Game {
 
     Scanner scan;
@@ -20,6 +23,15 @@ public class Game {
     ArrayList<Integer> rivi3 = new ArrayList<Integer>();
 
     //tähän myös linkki uiseen 
+    
+    /**
+ * Metodi on konstruktori luokalle Game
+ * Se ottaa syötteenä scanner olion.
+ *
+ * @param   syote   Scanner scan
+ *
+ * @return 
+ */
     public Game(Scanner scan) {
         this.scan = scan;
         this.rivi1 = rivi1;
@@ -28,6 +40,16 @@ public class Game {
 
     }
 
+    
+   
+    /**
+ * Metodi aloittaa pelin kutsumalla ensin setGame metodia
+ * Se toimii while loopilla joka saa arvon ture ja pysähtyy kun peli päättyy
+ *
+ * 
+ *
+ * @return true kun peli on ohi
+ */  
     public boolean start() {
 
         setGame();
@@ -48,7 +70,17 @@ public class Game {
             }
         }
     }
-
+    
+    
+ 
+    /**
+ * Metodi luo pelin pelilaudan
+ * 
+ *
+ * 
+ *
+ * @return void
+ */
     public void setGame() {
 
         rivi1.add(0, 2);
@@ -61,7 +93,17 @@ public class Game {
         rivi3.add(1, 2);
         rivi3.add(2, 2);
     }
+    
 
+     
+  /**
+ * Metodi sijoittaa pelaajan 1 pelimerkin X
+ * Se ottaa syötteenä X:sän sijainnin pelilaudalla
+ *
+ * @param   syote   int x1, int x2
+ *
+ * @return void
+ */
     public void placeX(int x1, int x2) {
         if (x1 == 1) {
             if (x2 == 1) {
@@ -97,7 +139,16 @@ public class Game {
             }
         }
     }
+    
 
+      /**
+ * Metodi sijoittaa pelaajan 2 pelimerkin O
+ * Se ottaa syötteenä O:n sijainnin pelilaudalla
+ *
+ * @param   syote   int x1, int x2
+ *
+ * @return void
+ */
     public void placeO(int x1, int x2) {
         if (x1 == 1) {
             if (x2 == 1) {
@@ -134,6 +185,14 @@ public class Game {
         }
     }
 
+      /**
+ * Metodi kertoo onko peli pättynyt
+ * Se tarkistaa rivi kerrallaan onko missään 3 samanlaista pelimerkkiä rivissä
+ *
+ * @param
+ *
+ * @return true jos peli päättynyt
+ */
     public boolean isDone() {
         if (rivi1.get(0) == 0 && rivi1.get(1) == 0 && rivi1.get(2) == 0) {
 

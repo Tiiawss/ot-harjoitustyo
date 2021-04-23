@@ -14,6 +14,10 @@ import static javafx.application.Application.launch;
  *
  * @author nytiia
  */
+/**
+ * Luokka käynnistää pelin
+ */
+
 public class Ristinolla {
 
     /**
