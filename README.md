@@ -17,7 +17,7 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 
 # Releaset 
 
-[Viikko 5](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/Viikko5)
+[Viikko 5](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/viiikko5)
 
 
 # Komentorivitoiminnot
