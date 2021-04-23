@@ -19,7 +19,8 @@ import static javafx.application.Application.launch;
  */
 
 public class Ristinolla {
-
+//todo arkkitehtuuri kuvaus, testiluokka
+    // paranna ui ta, kertoo kuka voittaa, nappi uuden pelin aloitamiseksi kun edellinen päättyy
     /**
      * @param args the command line arguments
      */
