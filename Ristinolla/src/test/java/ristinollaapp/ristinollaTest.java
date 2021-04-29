@@ -55,183 +55,127 @@ public class ristinollaTest {
     // The methods must be annotated with annotation @Test. For example:
     //
     @Test
-    public void test1() {
-        int luku = game.rivi1.get(0);
-        assertEquals(luku, 2);
+    public void setUpRow1() {
+        int luku = 0;
+        int i = 0;
+        while (i < 3) {
+            luku = game.rivi1.get(i);
+            assertEquals(luku, 2);
+            i++;
+        }
     }
 
     @Test
-    public void test2() {
-        int luku = game.rivi1.get(1);
-        assertEquals(luku, 2);
+    public void setUpRow2() {
+        int luku = 0;
+        int i = 0;
+        while (i < 3) {
+            luku = game.rivi2.get(i);
+            assertEquals(luku, 2);
+            i++;
+        }
     }
 
     @Test
-    public void test3() {
-        int luku = game.rivi1.get(2);
-        assertEquals(luku, 2);
+    public void setUpRow3() {
+        int luku = 0;
+        int i = 0;
+        while (i < 3) {
+            luku = game.rivi3.get(i);
+            assertEquals(luku, 2);
+            i++;
+        }
     }
 
     @Test
-    public void test4() {
-        int luku = game.rivi2.get(0);
-        assertEquals(luku, 2);
+    public void PlaceX() {
+        int row = 1;
+        int place = 1;
+        while (row <= 3) {
+
+            while (place <= 3) {
+                game.placeX(row, place);
+                if (row == 1) {
+                    int luku = game.rivi1.get((place - 1));
+                    assertEquals(luku, 1);
+                }
+                if (row == 2) {
+                    int luku = game.rivi2.get((place - 1));
+                    assertEquals(luku, 1);
+                }
+                if (row == 3) {
+                    int luku = game.rivi3.get((place - 1));
+                    assertEquals(luku, 1);
+                }
+                place++;
+            }
+            row++;
+            place = 1;
+
+        }
     }
 
     @Test
-    public void test5() {
-        int luku = game.rivi2.get(1);
-        assertEquals(luku, 2);
+    public void PlaceO() {
+        int row = 1;
+        int place = 1;
+        while (row <= 3) {
+
+            while (place <= 3) {
+                game.placeO(row, place);
+                if (row == 1) {
+                    int luku = game.rivi1.get((place - 1));
+                    assertEquals(luku, 0);
+                }
+                if (row == 2) {
+                    int luku = game.rivi2.get((place - 1));
+                    assertEquals(luku, 0);
+                }
+                if (row == 3) {
+                    int luku = game.rivi3.get((place - 1));
+                    assertEquals(luku, 0);
+                }
+                place++;
+            }
+            row++;
+            place = 1;
+
+        }
     }
 
     @Test
-    public void test6() {
-        int luku = game.rivi2.get(2);
-        assertEquals(luku, 2);
-    }
+    public void ending() {
 
-    @Test
-    public void test7() {
-        int luku = game.rivi3.get(0);
-        assertEquals(luku, 2);
-    }
+        int i = 0;
+        while (i <= 1) {
 
-    @Test
-    public void test8() {
-        int luku = game.rivi3.get(1);
-        assertEquals(luku, 2);
-    }
+            if (game.rivi1.get(0) == i && game.rivi1.get(1) == i && game.rivi1.get(2) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi2.get(0) == i && game.rivi2.get(1) == i && game.rivi2.get(2) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi3.get(0) == i && game.rivi3.get(1) == i && game.rivi3.get(2) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi1.get(0) == i && game.rivi2.get(0) == i && game.rivi3.get(0) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi1.get(1) == i && game.rivi2.get(1) == i && game.rivi3.get(1) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi1.get(2) == i && game.rivi2.get(2) == i && game.rivi3.get(2) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi1.get(0) == i && game.rivi2.get(1) == i && game.rivi3.get(2) == i) {
+                assertEquals(game.isDone(), true);
+            }
+            if (game.rivi3.get(0) == i && game.rivi2.get(1) == i && game.rivi1.get(2) == i) {
+                assertEquals(game.isDone(), true);
+            }
 
-    @Test
-    public void test9() {
-        int luku = game.rivi3.get(2);
-        assertEquals(luku, 2);
-    }
-
-    @Test
-    public void Place1() {
-        game.placeX(1, 1);
-        int luku = game.rivi1.get(0);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place2() {
-        game.placeX(1, 2);
-        int luku = game.rivi1.get(1);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place3() {
-        game.placeX(1, 3);
-        int luku = game.rivi1.get(2);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place4() {
-        game.placeX(2, 1);
-        int luku = game.rivi2.get(0);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place5() {
-        game.placeX(2, 2);
-        int luku = game.rivi2.get(1);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place6() {
-        game.placeX(2, 3);
-        int luku = game.rivi2.get(2);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place7() {
-        game.placeX(3, 1);
-        int luku = game.rivi3.get(0);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place8() {
-        game.placeX(3, 2);
-        int luku = game.rivi3.get(1);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place9() {
-        game.placeX(3, 3);
-        int luku = game.rivi3.get(2);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place10() {
-        game.placeO(1, 1);
-        int luku = game.rivi1.get(0);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place20() {
-        game.placeO(1, 2);
-        int luku = game.rivi1.get(1);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place30() {
-        game.placeO(1, 3);
-        int luku = game.rivi1.get(2);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place40() {
-        game.placeO(2, 1);
-        int luku = game.rivi2.get(0);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place50() {
-        game.placeO(2, 2);
-        int luku = game.rivi2.get(1);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place60() {
-        game.placeO(2, 3);
-        int luku = game.rivi2.get(2);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place70() {
-        game.placeO(3, 1);
-        int luku = game.rivi3.get(0);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place80() {
-        game.placeO(3, 2);
-        int luku = game.rivi3.get(1);
-        assertEquals(luku, 1);
-    }
-
-    @Test
-    public void Place90() {
-        game.placeO(3, 3);
-        int luku = game.rivi3.get(2);
-        assertEquals(luku, 1);
+            i++;
+        }
     }
 
     @Test
