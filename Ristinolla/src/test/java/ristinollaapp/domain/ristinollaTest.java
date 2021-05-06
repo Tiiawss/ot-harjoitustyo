@@ -146,6 +146,10 @@ public class ristinollaTest {
 
     @Test
     public void doesGameEndWhenThreeInARow() {
+        game.placeX(1, 1);
+        game.placeX(1, 2);
+        game.placeX(1, 3);
+        assertEquals(game.isDone(), true);
 
         int i = 0;
         while (i <= 1) {
