@@ -33,6 +33,8 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 
 -mvn package generoi hakemistoon target suoritettavan jar-tiedoston Ristinolla-1.0-SNAPSHOT.jar
 
+- mvn compile exec:java -Dexec.mainClass=ristinollaapp.Ristinolla
+
 ## JavaDoc
 -JavaDoc generoidaan komennolla mvn javadoc:javadoc
 
