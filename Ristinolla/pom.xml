@@ -55,7 +55,7 @@
                 <configuration>
                     <excludes>
                         
-                        <exclude>ristinollaapp/RistinollaUI/*</exclude>
+                        <exclude>ristinollaapp/RistinollaUI/**</exclude>
                     </excludes>
                 </configuration>
                 <executions>
