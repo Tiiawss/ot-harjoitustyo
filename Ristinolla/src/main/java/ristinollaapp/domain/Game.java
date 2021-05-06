@@ -1,4 +1,4 @@
-package ristinollaapp;
+package ristinollaapp.domain;
 
 import java.util.ArrayList;
 import java.util.Scanner;

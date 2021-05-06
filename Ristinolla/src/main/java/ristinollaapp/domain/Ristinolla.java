@@ -1,8 +1,9 @@
-package ristinollaapp;
+package ristinollaapp.domain;
 
-import ristinollaapp.Game;
+import ristinollaapp.domain.Game;
 import java.util.ArrayList;
 import java.util.Scanner;
+import ristinollaapp.ui.RistinollaUI;
 import static javafx.application.Application.launch;
 
 /*
