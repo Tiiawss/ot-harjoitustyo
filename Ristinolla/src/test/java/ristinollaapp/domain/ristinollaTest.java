@@ -5,7 +5,6 @@
  */
 package ristinollaapp.domain;
 
-
 import ristinollaapp.domain.Ristinolla;
 import ristinollaapp.domain.Game;
 import java.util.ArrayList;
@@ -145,44 +144,132 @@ public class ristinollaTest {
     }
 
     @Test
-    public void doesGameEndWhenThreeInARow() {
+    public void doesGameEndWhenThreeXInARow1() {
         game.placeX(1, 1);
         game.placeX(1, 2);
         game.placeX(1, 3);
         assertEquals(game.isDone(), true);
-
-        int i = 0;
-        while (i <= 1) {
-
-            if (game.rivi1.get(0) == i && game.rivi1.get(1) == i && game.rivi1.get(2) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi2.get(0) == i && game.rivi2.get(1) == i && game.rivi2.get(2) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi3.get(0) == i && game.rivi3.get(1) == i && game.rivi3.get(2) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi1.get(0) == i && game.rivi2.get(0) == i && game.rivi3.get(0) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi1.get(1) == i && game.rivi2.get(1) == i && game.rivi3.get(1) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi1.get(2) == i && game.rivi2.get(2) == i && game.rivi3.get(2) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi1.get(0) == i && game.rivi2.get(1) == i && game.rivi3.get(2) == i) {
-                assertEquals(game.isDone(), true);
-            }
-            if (game.rivi3.get(0) == i && game.rivi2.get(1) == i && game.rivi1.get(2) == i) {
-                assertEquals(game.isDone(), true);
-            }
-
-            i++;
-        }
     }
 
+    @Test
+    public void doesGameEndWhenThreeXInARow2() {
+        game.placeX(2, 1);
+        game.placeX(2, 2);
+        game.placeX(2, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeXInARow3() {
+        game.placeX(3, 1);
+        game.placeX(3, 2);
+        game.placeX(3, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeXdiagonal1() {
+        game.placeX(1, 1);
+        game.placeX(2, 2);
+        game.placeX(3, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeXdiagonal2() {
+        game.placeX(1, 3);
+        game.placeX(2, 2);
+        game.placeX(3, 1);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeXline1() {
+        game.placeX(1, 1);
+        game.placeX(2, 1);
+        game.placeX(3, 1);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeXline2() {
+        game.placeX(1, 2);
+        game.placeX(2, 2);
+        game.placeX(3, 2);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeXline3() {
+        game.placeX(1, 3);
+        game.placeX(2, 3);
+        game.placeX(3, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+        @Test
+    public void doesGameEndWhenThreeOInARow1() {
+        game.placeO(1, 1);
+        game.placeO(1, 2);
+        game.placeO(1, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOInARow2() {
+        game.placeO(2, 1);
+        game.placeO(2, 2);
+        game.placeO(2, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOInARow3() {
+        game.placeO(3, 1);
+        game.placeO(3, 2);
+        game.placeO(3, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOdiagonal1() {
+        game.placeO(1, 1);
+        game.placeO(2, 2);
+        game.placeO(3, 3);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOdiagonal2() {
+        game.placeO(1, 3);
+        game.placeO(2, 2);
+        game.placeO(3, 1);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOline1() {
+        game.placeO(1, 1);
+        game.placeO(2, 1);
+        game.placeO(3, 1);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOline2() {
+        game.placeO(1, 2);
+        game.placeO(2, 2);
+        game.placeO(3, 2);
+        assertEquals(game.isDone(), true);
+    }
+
+    @Test
+    public void doesGameEndWhenThreeOline3() {
+        game.placeO(1, 3);
+        game.placeO(2, 3);
+        game.placeO(3, 3);
+        assertEquals(game.isDone(), true);
+    }
     @Test
     public void hello() {
     }
