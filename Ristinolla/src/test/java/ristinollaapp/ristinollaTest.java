@@ -88,7 +88,7 @@ public class ristinollaTest {
     }
 
     @Test
-    public void PlaceX() {
+    public void placeXplacesTheRightPlace() {
         int row = 1;
         int place = 1;
         while (row <= 3) {
@@ -116,7 +116,7 @@ public class ristinollaTest {
     }
 
     @Test
-    public void PlaceO() {
+    public void placeOplacesTheRightPlace() {
         int row = 1;
         int place = 1;
         while (row <= 3) {
@@ -144,7 +144,7 @@ public class ristinollaTest {
     }
 
     @Test
-    public void ending() {
+    public void doesGameEndWhenThreeInARow() {
 
         int i = 0;
         while (i <= 1) {

@@ -92,7 +92,8 @@ public class Game {
      * Metodi sijoittaa pelaajan 1 pelimerkin X Se ottaa syötteenä X:sän
      * sijainnin pelilaudalla
      *
-     * @param syote int x1, int x2
+     * @param x1,syöte kertoo mille kolmesta rivistä X sijoitetaan
+     * @param x2,syöte kertoo mille valitun rivin kolmesta kohdasta X sijoitetaan
      *
      * @return void
      */
@@ -136,7 +137,8 @@ public class Game {
      * Metodi sijoittaa pelaajan 2 pelimerkin O Se ottaa syötteenä O:n sijainnin
      * pelilaudalla
      *
-     * @param syote int x1, int x2
+     * @param x1,syöte kertoo mille kolmesta rivistä O sijoitetaan
+     * @param x2,syöte kertoo mille valitun rivin kolmesta kohdasta O sijoitetaan
      *
      * @return void
      */

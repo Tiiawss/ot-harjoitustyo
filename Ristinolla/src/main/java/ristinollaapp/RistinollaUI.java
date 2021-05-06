@@ -74,6 +74,30 @@ public class RistinollaUI extends Application {
                 turn++;
             }
         });
+        btn2.setText("    ");
+        btn2.setStyle("-fx-background-color: #fff;");
+        btn2.setOnAction(new EventHandler<ActionEvent>() {
+
+            @Override
+            public void handle(ActionEvent event) {
+                if (turn % 2 == 0) {
+                    game.placeO(1, 2);
+
+                    btn2.setText("O");
+                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
+                } else {
+                    game.placeX(1, 2);
+
+                    btn2.setText("X");
+                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
+                }
+                if (game.isDone()) {
+                    winner.setText("Peli päättyi");
+                }
+                turn++;
+            }
+        });
+        
         btn3.setText("    ");
         btn3.setStyle("-fx-background-color: #fff;");
         btn3.setOnAction(new EventHandler<ActionEvent>() {
@@ -98,29 +122,7 @@ public class RistinollaUI extends Application {
 
             }
         });
-        btn2.setText("    ");
-        btn2.setStyle("-fx-background-color: #fff;");
-        btn2.setOnAction(new EventHandler<ActionEvent>() {
-
-            @Override
-            public void handle(ActionEvent event) {
-                if (turn % 2 == 0) {
-                    game.placeO(1, 2);
-
-                    btn2.setText("O");
-                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
-                } else {
-                    game.placeX(1, 2);
-
-                    btn2.setText("X");
-                    turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
-                }
-                if (game.isDone()) {
-                    winner.setText("Peli päättyi");
-                }
-                turn++;
-            }
-        });
+        
         btn4.setText("    ");
         btn4.setStyle("-fx-background-color: #fff;");
         btn4.setOnAction(new EventHandler<ActionEvent>() {
