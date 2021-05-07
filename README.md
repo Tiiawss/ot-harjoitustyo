@@ -22,6 +22,7 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 
 # Komentorivitoiminnot
  ## Testaus
+ 
 -Testit suoritetaan komennolla mvn test
 
 
@@ -31,9 +32,9 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 # Suoritettavan jarin generointi
 ## Komento
 
--mvn package generoi hakemistoon target suoritettavan jar-tiedoston Ristinolla-1.0-SNAPSHOT.jar
+- mvn package generoi hakemistoon target suoritettavan jar-tiedoston Ristinolla-1.0-SNAPSHOT.jar
 
-- mvn compile exec:java -Dexec.mainClass=ristinollaapp.Ristinolla
+- mvn compile exec:java -Dexec.mainClass=ristinollaapp.domain.Ristinolla
 
 ## JavaDoc
 -JavaDoc generoidaan komennolla mvn javadoc:javadoc
