@@ -1,7 +1,7 @@
 
 # työaikakirjanpito
 
-- yht. 38 h. 
+- yht. 42 h. 
 
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
@@ -16,3 +16,4 @@
 | 29.04 | 4    | Testien tekoa|
 | 06.05 | 4    | Testien tekoa ja javadoc|
 | 07.05 | 4    | Ui:n hiomista|
+| 08.05 | 4    | Ui:n hiomista, dokumentointia|
