@@ -33,5 +33,5 @@ Peli päättyy kun jompikumpi pelaajista saa ruudukkoon omaa merkkiänsä kolme 
 
 <img src="https://github.com/Tiiawss/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/Screenshot%20from%202021-05-07%2013-16-15.png" width="400">
 
-Peli ilmoittaa päättymisen tekstillä ylhäällä ja pelin voittajan ruudukon alapuolella.
+Peli ilmoittaa päättymisen tekstillä ylhäällä ja pelin voittajan ruudukon alapuolella tai kun ruudukko on täyttynyt kokonaan mutta kumpikaan ei ole voittanut.
 
