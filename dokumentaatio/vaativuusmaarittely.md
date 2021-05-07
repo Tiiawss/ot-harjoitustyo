@@ -2,14 +2,15 @@
 
 ## Sovelluksen tarkoitus
 
-Sovelluksen on tarkoitus mahdollistaa ristinollan pelaaminen kahden pelaajan välillä.
+Sovelluksen on tarkoitus mahdollistaa ristinollan pelaaminen kahden pelaajan välillä. Sovellus kertoo kokoajan kumman pelaajan vuoro on niin kauan kuin peli on käynnissä, pelin loppuessa jommankumman voittoon se kertoo voittajan. Jos kumpikaan ei voita mutta ruudukko tulee täyteen, sovellus kertoo vain pelin päättyneen.
 
 ## Käyttäjät
 
 Vain kaksi samoilla oikeuksilla olevaa käyttäjää, eli pelaajat.
 
 ## Käyttöliittymäluonnos
- tulossa
+
+ <img src="https://github.com/Tiiawss/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/Screenshot%20from%202021-05-07%2013-15-46.png" width="360">
 
 ## Perusversion tarjoama toiminnallisuus
 
