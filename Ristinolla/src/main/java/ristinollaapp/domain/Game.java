@@ -93,7 +93,8 @@ public class Game {
      * sijainnin pelilaudalla
      *
      * @param x1,syöte kertoo mille kolmesta rivistä X sijoitetaan
-     * @param x2,syöte kertoo mille valitun rivin kolmesta kohdasta X sijoitetaan
+     * @param x2,syöte kertoo mille valitun rivin kolmesta kohdasta X
+     * sijoitetaan
      *
      * @return void
      */
@@ -138,7 +139,8 @@ public class Game {
      * pelilaudalla
      *
      * @param x1,syöte kertoo mille kolmesta rivistä O sijoitetaan
-     * @param x2,syöte kertoo mille valitun rivin kolmesta kohdasta O sijoitetaan
+     * @param x2,syöte kertoo mille valitun rivin kolmesta kohdasta O
+     * sijoitetaan
      *
      * @return void
      */

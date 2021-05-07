@@ -18,16 +18,12 @@ import static javafx.application.Application.launch;
 /**
  * Luokka käynnistää pelin
  */
-
 public class Ristinolla {
-//todo arkkitehtuuri kuvaus, testiluokka
-    // paranna ui ta, kertoo kuka voittaa, nappi uuden pelin aloitamiseksi kun edellinen päättyy
+
     /**
      * @param args the command line arguments
      */
-    //laitetaan myöhemmin olioksi ristikonluonti
     public static void main(String[] args) {
-       
 
         RistinollaUI.main(args);
 
