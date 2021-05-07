@@ -1,4 +1,4 @@
-## ot-harjoitustyo
+
 
 ## RistinollaApp
 Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristinollaa.Sovellus toimii myös Helsingin yliopiston Tietojenkäsittelytieteen kurssin Ohjelmistotekniikan menetelmät kurssityönä.
