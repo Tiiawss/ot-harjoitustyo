@@ -8,13 +8,15 @@ Sovelluksen on tarkoitus mahdollistaa ristinollan pelaaminen kahden pelaajan vä
 
 Vain kaksi samoilla oikeuksilla olevaa käyttäjää, eli pelaajat.
 
-## Käyttöliittymäluonnos
+## Käyttöliittymä
+
+Käyttölittymä koostuu yhdestä näkymästä jossa on 3x3 ruudukko johon pelaajat merkkaavat pelimerkkinsä. 
 
  <img src="https://github.com/Tiiawss/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/Screenshot%20from%202021-05-07%2013-15-46.png" width="360">
 
 ## Perusversion tarjoama toiminnallisuus
 
-- voit valita itsellesi käyttäjänimen ja kummalla merkillä (X,O) pelaat.(tehty)
+
 - peli kertoo jos jompikumpi on saanut joko vaaka tai pystysuoraan kolme omaa merkkiä peräkkäin. (tehty)
 - pelaajat näkevät kokoajan ruudukon ja mihin edelliset merkit on laitettu.(tehty)
 
