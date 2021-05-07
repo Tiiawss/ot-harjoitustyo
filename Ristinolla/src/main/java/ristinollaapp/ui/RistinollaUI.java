@@ -36,6 +36,7 @@ public class RistinollaUI extends Application {
     private Scanner reader = new Scanner(System.in);
     private Game game = new Game(reader);
     private int turn = 1;
+    private int loppu =0;
 
     @Override
     public void start(Stage primaryStage) {
@@ -58,7 +59,7 @@ public class RistinollaUI extends Application {
         Font font = Font.font("Verdana", FontWeight.EXTRA_BOLD, 20);
         turnLbl.setFont(font);
         winner.setFont(font);
-
+            
         btn1.setText("");
         btn1.setFont(font);
         btn1.setStyle("-fx-background-color: #fff;");
@@ -67,18 +68,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                if (btn1.getText()=="X" || btn1.getText()=="O"){
+                if (btn1.getText() == "X" || btn1.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(1, 1);
 
                     btn1.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(1, 1);
-                    
+
                     btn1.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
 
@@ -101,18 +112,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn2.getText()=="X" || btn2.getText()=="O"){
+                if (btn2.getText() == "X" || btn2.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(1, 2);
 
                     btn2.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(1, 2);
 
                     btn2.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -135,18 +156,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn3.getText()=="X" || btn3.getText()=="O"){
+                if (btn3.getText() == "X" || btn3.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(1, 3);
 
                     btn3.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(1, 3);
 
                     btn3.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -170,18 +201,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn4.getText()=="X" || btn4.getText()=="O"){
+                if (btn4.getText() == "X" || btn4.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(2, 1);
 
                     btn4.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(2, 1);
 
                     btn4.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -203,18 +244,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn5.getText()=="X" || btn5.getText()=="O"){
+                if (btn5.getText() == "X" || btn5.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(2, 2);
 
                     btn5.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(2, 2);
 
                     btn5.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -236,18 +287,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn6.getText()=="X" || btn6.getText()=="O"){
+                if (btn6.getText() == "X" || btn6.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(2, 3);
 
                     btn6.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(2, 3);
 
                     btn6.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -269,18 +330,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn7.getText()=="X" || btn7.getText()=="O"){
+                if (btn7.getText() == "X" || btn7.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(3, 1);
 
                     btn7.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(3, 1);
 
                     btn7.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -302,18 +373,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn8.getText()=="X" || btn8.getText()=="O"){
+                if (btn8.getText() == "X" || btn8.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(3, 2);
 
                     btn8.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(3, 2);
 
                     btn8.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
@@ -335,18 +416,28 @@ public class RistinollaUI extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                 if (btn9.getText()=="X" || btn9.getText()=="O"){
+                if (btn9.getText() == "X" || btn9.getText() == "O") {
                     return;
                 }
                 if (turn % 2 == 0) {
                     game.placeO(3, 3);
 
                     btn9.setText("O");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 1, sijoita X");
                 } else {
                     game.placeX(3, 3);
 
                     btn9.setText("X");
+                    loppu++;
+                    if (loppu==9){
+                        turnLbl.setText("Peli päättyi");
+                        return;
+                    }
                     turnLbl.setText("Vuoro: Pelaaja 2, sijoita O");
                 }
                 if (game.isDone()) {
