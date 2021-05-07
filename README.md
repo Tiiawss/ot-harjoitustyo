@@ -23,10 +23,10 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 # Komentorivitoiminnot
  ## Testaus
  
--Testit suoritetaan komennolla mvn test
+- Testit suoritetaan komennolla mvn test
 
 
--Testikattavuusraportti luodaan komennolla mvn jacoco:report
+- Testikattavuusraportti luodaan komennolla mvn jacoco:report
 
 
 # Suoritettavan jarin generointi
@@ -37,8 +37,8 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 - mvn compile exec:java -Dexec.mainClass=ristinollaapp.domain.Ristinolla
 
 ## JavaDoc
--JavaDoc generoidaan komennolla mvn javadoc:javadoc
+- JavaDoc generoidaan komennolla mvn javadoc:javadoc
 
 
 ## Checkstyle
--Tiedostoon checkstyle.xml määrittelemät tarkistukset suoritetaan komennolla mvn jxr:jxr checkstyle:checkstyle
+- Tiedostoon checkstyle.xml määrittelemät tarkistukset suoritetaan komennolla mvn jxr:jxr checkstyle:checkstyle
