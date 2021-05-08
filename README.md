@@ -19,7 +19,7 @@ Ristinolla sovelluksen avulla on tarkoitus pystyä kahden ihmisen pelata ristino
 
 [Viikko 5](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/viiikko5)
 
- lopullinen :[ristinollaapp.jar](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/Ristinolla)
+ lopullinen: [ristinollaapp.jar](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/0.1)
 
 
 # Komentorivitoiminnot
