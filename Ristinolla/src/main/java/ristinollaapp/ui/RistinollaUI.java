@@ -14,14 +14,11 @@ import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.CornerRadii;
-import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -36,7 +33,7 @@ public class RistinollaUI extends Application {
     private Scanner reader = new Scanner(System.in);
     private Game game = new Game(reader);
     private int turn = 1;
-    private int loppu =0;
+    private int loppu = 0;
 
     @Override
     public void start(Stage primaryStage) {
@@ -59,7 +56,7 @@ public class RistinollaUI extends Application {
         Font font = Font.font("Verdana", FontWeight.EXTRA_BOLD, 20);
         turnLbl.setFont(font);
         winner.setFont(font);
-            
+
         btn1.setText("");
         btn1.setFont(font);
         btn1.setStyle("-fx-background-color: #fff;");
@@ -76,7 +73,7 @@ public class RistinollaUI extends Application {
 
                     btn1.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -86,7 +83,7 @@ public class RistinollaUI extends Application {
 
                     btn1.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -120,7 +117,7 @@ public class RistinollaUI extends Application {
 
                     btn2.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -130,7 +127,7 @@ public class RistinollaUI extends Application {
 
                     btn2.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -164,7 +161,7 @@ public class RistinollaUI extends Application {
 
                     btn3.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -174,7 +171,7 @@ public class RistinollaUI extends Application {
 
                     btn3.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -209,7 +206,7 @@ public class RistinollaUI extends Application {
 
                     btn4.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -219,7 +216,7 @@ public class RistinollaUI extends Application {
 
                     btn4.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -252,7 +249,7 @@ public class RistinollaUI extends Application {
 
                     btn5.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -262,7 +259,7 @@ public class RistinollaUI extends Application {
 
                     btn5.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -295,7 +292,7 @@ public class RistinollaUI extends Application {
 
                     btn6.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -305,7 +302,7 @@ public class RistinollaUI extends Application {
 
                     btn6.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -338,7 +335,7 @@ public class RistinollaUI extends Application {
 
                     btn7.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -348,7 +345,7 @@ public class RistinollaUI extends Application {
 
                     btn7.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -381,7 +378,7 @@ public class RistinollaUI extends Application {
 
                     btn8.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -391,7 +388,7 @@ public class RistinollaUI extends Application {
 
                     btn8.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -424,7 +421,7 @@ public class RistinollaUI extends Application {
 
                     btn9.setText("O");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
@@ -434,7 +431,7 @@ public class RistinollaUI extends Application {
 
                     btn9.setText("X");
                     loppu++;
-                    if (loppu==9){
+                    if (loppu == 9) {
                         turnLbl.setText("Peli päättyi");
                         return;
                     }
