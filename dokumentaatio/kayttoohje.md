@@ -1,6 +1,6 @@
 # Käyttöohje
 
-Lataa tiedosto [ristinollaapp.jar](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/Ristinolla)
+Lataa tiedosto [ristinollaapp.jar](https://github.com/Tiiawss/ot-harjoitustyo/releases/tag/0.1)
 
 
 ## Ohjelman käynnistäminen
