@@ -14,11 +14,15 @@ Käyttölittymä koostuu yhdestä näkymästä jossa on 3x3 ruudukko johon pelaa
 
  <img src="https://github.com/Tiiawss/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/Screenshot%20from%202021-05-07%2013-15-46.png" width="360">
 
-## Perusversion tarjoama toiminnallisuus
+## Perusversio
 
-
-- peli kertoo jos jompikumpi on saanut joko vaaka tai pystysuoraan kolme omaa merkkiä peräkkäin. (tehty)
-- pelaajat näkevät kokoajan ruudukon ja mihin edelliset merkit on laitettu.(tehty)
+- peli luo kaksi pelaajaa, pelaaja 1 ja pelaaja 2, ja antaa niille pelimerkit X ja O.
+- pelissä on 3x3 ruudukko johon pelimerkit sijoitetaan ja peli muistaa missä mikäkin merkki on.
+- peli kertoo jos jompikumpi on saanut joko vaakasuoraan, pystysuoraan tai vinottain kolme omaa merkkiä peräkkäin. 
+- pelaajat näkevät kokoajan ruudukon ja mihin edelliset merkit on laitettu.
+- jos jompikumpi voittaa peli kertoo pelin päättyneeksi ja julistaa voittajan. Jos peli päättyy ilman voittajaa se päättyy sitten kun ruudukko on täytetty kokonaan. 
 
 ## Jatkokehitysideoita
+
+-pelaajat voisivat valita itse ruudukon koon.
 
