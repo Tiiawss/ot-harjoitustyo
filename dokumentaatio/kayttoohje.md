@@ -8,7 +8,8 @@ Lataa tiedosto [ristinollaapp.jar](https://github.com/Tiiawss/ot-harjoitustyo/re
 Ohjelma käynnistetään komennolla 
 
 ```
-mvn compile exec:java -Dexec.mainClass=ristinollaapp.domain.Ristinolla
+java -jar Ristinolla-1.0-SNAPSHOT.jar
+
 ```
 
 ## Kirjautuminen
